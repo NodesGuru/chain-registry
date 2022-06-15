@@ -199,6 +199,9 @@
                 },
                 "tx_page": {
                     "type": "string"
+                },
+                "account_page": {
+                    "type": "string"
                 }
             }
         },
@@ -213,6 +216,19 @@
                 },
                 "fixed_min_gas_price": {
                     "type": "number"
+                }
+            }
+        },
+         "logo_URIs": {
+            "type": "object",
+            "properties": {
+                "png": {
+                    "type": "string",
+                    "format": "uri-reference"
+                },
+                "svg": {
+                    "type": "string",
+                    "format": "uri-reference"
                 }
             }
         }
